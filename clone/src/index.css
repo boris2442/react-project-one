@@ -1,0 +1,197 @@
+*, ::after, ::before{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+body {
+  margin: 0;
+  width: 100%;
+font-family: Verdana, Geneva, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+header h1{
+  font-size: clamp(15px, 5vw, 40px);
+}
+.home{
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  height: 10vh;
+  color:white;
+  padding: 0 20px;
+  align-items: center;
+}
+nav>ul{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap:20px;
+}
+.home nav ul li a{
+  cursor: pointer;
+  position: relative;
+  color:white;
+
+}
+.home nav ul li a::after{
+  content: "";
+  position: absolute;
+
+  height: 2px;
+  width: 0%;
+  background-color: white;
+  left: 0;
+  bottom:-3px;
+  transition: .5s ease-in-out;
+}
+header ul li a:hover{
+
+  color:rgb(224, 224, 230);
+}
+.home nav ul li a:hover::after{
+  width: 100%;
+}
+
+/* premiere section */
+
+.container{
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+padding-left: 30px;
+gap:30px;
+}
+.container .box-contaier1{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  
+  text-align: left;
+}
+.container .box-contaier1 button{
+  width: 200px;
+  padding: 8px;
+  background-color: blue;
+  font-weight: bold;
+  color:white !important;
+  border: none;
+  border-radius: 4px;
+}
+.container .box-contaier1 button:hover{
+  background-color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+
+}
+.container div img{
+  width: 400px;
+  height: 400px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+
+/* another section */
+
+
+.container-one{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 0;
+  gap:30px;
+}
+.container-one div{
+  box-shadow: 2px 2px 3px #333,
+                      -2px -2px 3px #333;
+                     /* - 2px -3px -5px #333  ; */
+
+  border-radius: 5px;
+}
+.container-one div  img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.container-one div  img:hover{
+  transform: scale(1.05);
+}
+
+
+
+
+/* partie reservee a la boutique */
+
+
+#boutique h2{
+  text-align:center;
+}
+.container-boutique{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 0;
+  gap:30px;
+}
+.container-boutique div{
+  box-shadow: 2px 2px 3px #333,
+                      -2px -2px 3px #333;
+                      height: 300px;
+                      width: 265px;
+                      position: relative;
+}
+.container-boutique div:hover{
+  transform: scale(1.05);
+}
+.container-boutique div h4{
+  color:blue;
+  font-size: 17px;
+  text-align-last: left;
+position: absolute;
+bottom: 7px;
+left: 10%;
+}
+.container-boutique div h5{
+  color:blue;
+  position: absolute;
+  left: 10%;
+  bottom: 12%;
+  font-size: 17px;
+  text-align-last: left;
+  /* padding-left: 10px; */
+  /* padding-bottom: 15px; */
+}
+.container-boutique div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container-boutique div i{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+font-size: 1.7rem;
+cursor: pointer;
+background: blue;
+color:white;
+padding: 7px;
+border-top-left-radius: 15px;
+}
+.container-boutique div i:hover{
+  color:#007bff;
+}
+
