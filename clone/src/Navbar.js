@@ -40,6 +40,11 @@ const Navbar = () => {
       </nav>
       <div className="">
         <FontAwesomeIcon icon={faBars} />
+        {/* <select>
+          <option><a href="">Se connecter</a></option>
+          <option><a href="">S'inscrire</a></option>
+          
+        </select> */}
       </div>
     </header>
   );

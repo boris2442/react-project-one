@@ -49,7 +49,7 @@ nav>ul{
   cursor: pointer;
   position: relative;
   color:white;
-font-size:clamp(2vw,14px,4vw );
+font-size:clamp(1vw,16px,2vw );
 }
 .home nav ul li a::after{
   content: "";
