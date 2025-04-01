@@ -3,6 +3,9 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 // import {Link} from 'react-router-dom';
 
 const Navbar = () => {
+  const clickMenuBurger=()=>{
+    const burger=document.querySelector(".menu-burger");
+  }
   return (
     <header className="home">
       <div className="">
@@ -39,7 +42,7 @@ const Navbar = () => {
         </ul>
       </nav>
       <div className="">
-        <FontAwesomeIcon icon={faBars} />
+        <FontAwesomeIcon icon={faBars} className="menu-burger"  />
         {/* <select>
           <option><a href="">Se connecter</a></option>
           <option><a href="">S'inscrire</a></option>

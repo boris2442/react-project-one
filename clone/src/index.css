@@ -187,6 +187,7 @@ left: 10%;
   object-fit: cover;
 }
 .container-boutique div i{
+/* .shopping{ */
   position: absolute;
   bottom: 0;
   right: 0;
@@ -270,4 +271,33 @@ footer{
 footer .droits{
   padding: 20px;
   font-size: 1.3rem;
+}
+
+
+/* partie du code menu burger */
+.menu-burger{
+  opacity: 0;
+}
+@media screen and (max-width:500px) {
+  .menu-burger{
+    opacity: 1;
+  }
+  body{
+    position: relative;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    /* background-color: blue; */
+  }
+.toggle-menu-burger{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
 }
