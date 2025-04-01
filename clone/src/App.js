@@ -1,18 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './Navbar';
-import Home from './Home';
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./Navbar";
+import Home from "./Home";
 import Onne from "./Onne";
 import Boutique from "./Boutique";
-
+import Arrivage from "./Arrivage";
 function App() {
   return (
+    // <Router>
     <div className="App">
-      <Navbar/>
-      <Home/>
-      <Onne/>
-      <Boutique/>
-      {/* <header className="App-header"> */}
+      <Navbar />
+      <Home />
+    <Onne />
+    <Boutique />
+    <Arrivage/>
+ 
+    </div>
+  );
+  // } />
+          // <Route exact path="/contact" element={
+          // 
+        // } />
+        // </Routes>
+
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -25,9 +35,9 @@ function App() {
         >
           Learn React
         </a> */}
-      {/* </header> */}
-    </div>
-  );
+        {/* </header> */}
+     
+    // </Router>
 }
 
 export default App;
