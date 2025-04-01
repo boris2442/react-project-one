@@ -195,3 +195,36 @@ border-top-left-radius: 15px;
   color:#007bff;
 }
 
+/* partie formulaire */
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  padding-top: 40px;
+  width: 100%;
+}
+.form-group div{
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  text-align-last: left;
+}
+.form-group input, .form-group textarea, button[type='submit']{
+  padding: 6px;
+  border-radius: 4px;
+}
+.form-group input:focus, .form-group textarea:focus{
+  border: 2px solid #007bff;
+}
+.form-group textarea {
+height: 100px;
+resize: none;
+}
+button[type="submit"]{
+  background: blue;
+  color: aliceblue;
+  font-size: 20px;
+  border: none;
+}
