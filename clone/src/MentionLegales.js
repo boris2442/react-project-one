@@ -1,32 +1,23 @@
+
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 const MentionLegales = () => {
     return (
-       <>
-        <div className="">
-    <Navbar />
-    <div className="">
-    <h1 className="">Information sur SNEAKERS</h1>
-    <ol>
-      <li>Nom de l'entreprise:SNEAKERS</li>
-      <li>Statut juridique:SARL, SAS, Auto-entrepreneur</li>
-      <li>Numéro d'immatriculation:RCCM, numéro SIRET si applicable</li>
-      <li>Adresse du siège social:683783828</li>
-      <li>Téléphone et Email de contact</li>
-      <li>Nom du directeur de publication</li>
-    </ol>
+        <div>
+        {/* <Navbar /> */}
+        <div>
+            <h1>Information sur SNEAKERS</h1>
+            <ol>
+                <li>Nom de l'entreprise: <span>SNEAKERS</span></li>
+                <li>Statut juridique: <span>SARL, SAS, Auto-entrepreneur</span></li>
+                <li>Numéro d'immatriculation: <span>RCCM, numéro SIRET si applicable</span> </li>
+                <li>Adresse du siège social: <span>683783828</span></li>
+                <li>Téléphone et Email de contact <span>4444444444444</span></li>
+                <li>Nom du directeur de publication <span>simo bro </span></li>
+            </ol>
+        </div>
+        {/* <Footer /> */}
     </div>
-    <div className="">
-        <h2>Hebergement du site</h2>
-        <ol>
-            <li>Nom de l’hébergeur</li>
-            <li>Adresse de l’hébergeur</li>
-            <li>Contact de l’hébergeur</li>
-        </ol>
-    </div>
-    <Footer/>
-    </div>
- </>;
 
     )
 };

@@ -349,3 +349,10 @@ footer .droits {
   }
 
 }
+ol>li{
+  padding: 10px;
+  text-align: left;
+}
+span{
+  font-weight: bold;
+}
