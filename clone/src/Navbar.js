@@ -5,6 +5,10 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
   const clickMenuBurger=()=>{
     const burger=document.querySelector(".menu-burger");
+    const navigation=document.querySelector("header nav");
+
+    navigation.classList.toggle("active");
+
   }
   return (
     <header className="home">
@@ -42,7 +46,7 @@ const Navbar = () => {
         </ul>
       </nav>
       <div className="">
-        <FontAwesomeIcon icon={faBars} className="menu-burger"  />
+        <FontAwesomeIcon icon={faBars} className="menu-burger" onClick={clickMenuBurger}  />
         {/* <select>
           <option><a href="">Se connecter</a></option>
           <option><a href="">S'inscrire</a></option>

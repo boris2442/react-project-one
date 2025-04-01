@@ -7,8 +7,8 @@ const Footer = () => {
                 <h2 className="">Pages</h2>
                 <p><a href="">Home</a></p>
                 <p><a href="">Nouveautes</a></p>
-                <p><a href="">Boutique</a></p>
-                <p><a href="">Arrivages</a></p>
+                <p><a href="#boutique">Boutique</a></p>
+                <p><a href="#arrivage">Arrivages</a></p>
             </div>
             <div className="box-footer">
                 <h2 className="">Autres</h2>
