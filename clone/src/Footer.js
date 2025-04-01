@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             <div className="box-footer">
                 <h2 className="">Autres</h2>
-                <p className=""><a href="">
+                <p className=""><a href="/mentionLegales">
                     Mentions Legale</a></p>
             
                 <p className=""><a href="">
