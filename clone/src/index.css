@@ -228,3 +228,40 @@ button[type="submit"]{
   font-size: 20px;
   border: none;
 }
+
+
+
+/* partie footer */
+
+footer{
+}
+.container-footer{
+  background-color: blue;
+  display: flex;
+  width: 100%;
+  padding: 50px 0;
+  color:#fff;
+  border-top-right-radius: 80px;
+  border-top-left-radius: 80px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.container-footer div {
+  display: flex;
+  text-align-last: left;
+  flex-direction: column;
+  gap:6px;
+}
+.container-footer a{
+  color:#fff;
+  font-size: 16px;
+}
+.container-footer div h2{
+  color:red;
+  font-weight: normal;
+}
+
+footer .droits{
+  padding: 20px;
+  font-size: 1.3rem;
+}

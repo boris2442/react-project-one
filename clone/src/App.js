@@ -6,6 +6,7 @@ import Onne from "./Onne";
 import Boutique from "./Boutique";
 import Arrivage from "./Arrivage";
 import Contact from "./Contact";
+import Footer from "./Footer";
 function App() {
   return (
     // <Router>
@@ -16,6 +17,7 @@ function App() {
     <Boutique />
     <Arrivage/>
     <Contact/>
+    < Footer/>
  
     </div>
   );
