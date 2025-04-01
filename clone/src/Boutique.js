@@ -1,4 +1,5 @@
 // import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // const [blogs, setBlogs] = useState([]);
 const Boutique = () => {
   return (

@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 // import {Link} from 'react-router-dom';
 
 const Navbar = () => {
@@ -36,7 +38,9 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <div className="">{/* <i className="fa-solid fa-bars"></i> */}</div>
+      <div className="">
+        <FontAwesomeIcon icon={faBars} />
+      </div>
     </header>
   );
 };
