@@ -1,9 +1,11 @@
+
 *, ::after, ::before{
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
   outline: none;
+  font-family:"Poppins", verdana ;
 }
 body {
   margin: 0;
@@ -13,7 +15,10 @@ font-family: Verdana, Geneva, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
-
+h1{
+  font-family: "Parkinsans";
+  text-transform: uppercase;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -3,37 +3,38 @@ const Arrivage = () => {
     <>
       <section className="arrivage" id="arrivage">
         <div className="">
-          <h2>Les nouvelle arrivages</h2>
+          {/* <FontAwesomeIcon icon="fa-solid fa-circle-user" /> */}
+          <h2>Les nouvelles arrivages</h2>
           <p>Decouvrez less nouvelles arrivages des stocks </p>
         </div>
         <div className="container-arrivage">
-        <div className="container-one">
-          {/* <div className="box-one"> */}
-          <div className="">
-            <img src="/asset/cebago.jpg" alt="" className="" />
-          </div>
-          <div className="">
-            <img src="/asset/shoes2.jpg" alt="" className="" />
-          </div>
-          <div className="">
-            <img src="/asset/shoes3.jpg" alt="" className="" />
-          </div>
-          
-          <div className="">
-            <img src="/asset/shoes7.jpg" alt="" className="" />
-          </div>
-          <div className="">
-            <img src="/asset/shoes7.jpg" alt="" className="" />
-          </div>
-          <div className="">
-            <img src="/asset/shoes7.jpg" alt="" className="" />
-          </div>
-          <div className="">
-            <img src="/asset/shoes13.jpg" alt="" className="" />
-          </div>
-          <div className="">
-            <img src="/asset/shoes13.jpg" alt="" className="" />
-          </div>
+          <div className="container-one">
+            {/* <div className="box-one"> */}
+            <div className="">
+              <img src="/asset/cebago.jpg" alt="" className="" />
+            </div>
+            <div className="">
+              <img src="/asset/shoes2.jpg" alt="" className="" />
+            </div>
+            <div className="">
+              <img src="/asset/shoes3.jpg" alt="" className="" />
+            </div>
+
+            <div className="">
+              <img src="/asset/shoes7.jpg" alt="" className="" />
+            </div>
+            <div className="">
+              <img src="/asset/shoes7.jpg" alt="" className="" />
+            </div>
+            <div className="">
+              <img src="/asset/shoes7.jpg" alt="" className="" />
+            </div>
+            <div className="">
+              <img src="/asset/shoes13.jpg" alt="" className="" />
+            </div>
+            <div className="">
+              <img src="/asset/shoes13.jpg" alt="" className="" />
+            </div>
 
             <div className="">
               <img src="/asset/shoes20.jpg" alt="" className="" />
@@ -45,10 +46,10 @@ const Arrivage = () => {
               <img src="/asset/shoes20.jpg" alt="" className="" />
             </div>
             <div className="">
-            <img src="/asset/shoes20.jpg" alt="" className="" />
+              <img src="/asset/shoes20.jpg" alt="" className="" />
+            </div>
+            {/* </div> */}
           </div>
-          {/* </div> */}
-        </div>
         </div>
       </section>
     </>
