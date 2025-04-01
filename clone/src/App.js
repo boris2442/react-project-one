@@ -5,6 +5,7 @@ import Home from "./Home";
 import Onne from "./Onne";
 import Boutique from "./Boutique";
 import Arrivage from "./Arrivage";
+import Contact from "./Contact";
 function App() {
   return (
     // <Router>
@@ -14,6 +15,7 @@ function App() {
     <Onne />
     <Boutique />
     <Arrivage/>
+    <Contact/>
  
     </div>
   );
