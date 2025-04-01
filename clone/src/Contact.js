@@ -3,7 +3,7 @@ const Contact = () => {
   const [title, setTitle] = useState("");
   return (
     <>
-      <section className="contact">
+      <section className="contact" id="contact">
         <h2>Veuillez vous inscrire a la newsletter</h2>
         <form action="" className="form-group">
           <div className="">

@@ -6,6 +6,7 @@
   list-style: none;
   outline: none;
   font-family:"Poppins", verdana ;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
