@@ -19,7 +19,7 @@ const Navbar = () => {
       <nav>
         <ul>
           <li>
-            <a className="" href="/home">
+            <a className="" href="#home">
               Home
             </a>
           </li>

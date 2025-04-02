@@ -307,9 +307,17 @@ footer {}
 
 footer .droits {
   padding: 20px;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  animation:horizontal 15s linear infinite;
 }
-
+@keyframes horizontal{
+  0%{
+    transform: translateX(50%);
+  }
+  100%{
+    transform: translateX(-50%);
+  }
+}
 
 /* partie du code menu burger */
 .menu-burger {

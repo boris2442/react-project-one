@@ -43,13 +43,13 @@ const Footer = () => {
           <div className="box-footer">
             <h2 className="">Contact</h2>
             <p className="">Bafoussam Cameroon</p>
-            <p className="(+237)  694 22 35 03"></p>
+            <p className=""> <Link to="https://wa.me/679135177">(+237)  694 22 35 03</Link></p>
             <p className="">
-              <a>sneakers@gmail.com</a>
+              <Link to="mailto:aubinborissimotsebo@gmail.com">sneakers@gmail.com</Link>
             </p>
           </div>
         </div>
-        <p className="droits">Tous droits reserves. By simo dev</p>
+        <p className="droits">Tous droits reserves. By simo dev  679 13 5 77</p>
       </footer>
     </>
   );
