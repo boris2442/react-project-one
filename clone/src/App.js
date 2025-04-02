@@ -49,29 +49,80 @@ import ConditionDeVente from "./ConditionDeVente";
 
 //   // </Router>
 // }
+// function App() {
+//   return (
+//     <Router>
+//       <div className="App">
+//         <Navbar />
+//         <Home />
+//           <Onne/>
+//           <Boutique/>
+//           <Arrivage/>
+//           <Contact/>
+//         <Routes>
+          
+//           {/* <Route path="/" element={<Home />} />
+//           <Route path="/" element={<Onne />} />
+//           <Route path="/boutique" element={<Boutique />} />
+//           <Route path="/arrivage" element={<Arrivage />} />
+//           <Route path="/contact" element={<Contact />} /> */}
+//           <Route path="/mentionLegales" element={<MentionLegales />} />
+//           <Route path="/conditiondevente" element={<ConditionDeVente />}/>
+//         </Routes>
+//         <Footer />
+//       </div>
+//     </Router>
+//   );
+// }
 function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
-        <Home />
-          <Onne/>
-          <Boutique/>
-          <Arrivage/>
-          <Contact/>
         <Routes>
-          
-          {/* <Route path="/" element={<Home />} />
-          <Route path="/" element={<Onne />} />
-          <Route path="/boutique" element={<Boutique />} />
-          <Route path="/arrivage" element={<Arrivage />} />
-          <Route path="/contact" element={<Contact />} /> */}
-          <Route path="/mentionLegales" element={<MentionLegales />} />
-          <Route path="/conditiondevente" element={<ConditionDeVente />}/>
+          {/* Route pour la page d'accueil */}
+          <Route
+            path="/"
+            element={
+              <>
+                <Navbar />
+                <Home />
+                <Onne />
+                <Boutique />
+                <Arrivage />
+                <Contact />
+                <Footer />
+              </>
+            }
+          />
+
+          {/* Route pour la page "Mentions Légales" */}
+          <Route
+            path="/mentionLegales"
+            element={
+              <>
+                <Navbar />
+                <MentionLegales />
+                <Footer />
+              </>
+            }
+          />
+
+          {/* Route pour la page "Conditions de Vente" */}
+          <Route
+            path="/conditiondevente"
+            element={
+              <>
+                <Navbar />
+                <ConditionDeVente />
+                <Footer />
+              </>
+            }
+          />
         </Routes>
-        <Footer />
       </div>
     </Router>
   );
 }
+
+
 export default App;
