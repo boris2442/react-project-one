@@ -1,11 +1,15 @@
 import { useState } from "react";
 const Contact = () => {
   const [title, setTitle] = useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // console.log(title);
+  };
   return (
     <>
       <section className="contact" id="contact">
         <h2>Veuillez vous inscrire a la newsletter</h2>
-        <form action="" className="form-group">
+        <form action="" className="form-group" onSubmit={handleSubmit}>
           <div className="">
             <label htmlFor="name">Enter your name</label>
             <input
@@ -14,6 +18,7 @@ const Contact = () => {
               id="name"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
+              
             />
           </div>
           <div className="">

@@ -10,6 +10,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import MentionLegales from "./MentionLegales";
 import ConditionDeVente from "./ConditionDeVente";
+import LiorChamla from "./LiorChamla";
 // function App() {
 //   return (
 //     // <Router>
@@ -86,6 +87,7 @@ function App() {
               <>
                 <Navbar />
                 <Home />
+                <LiorChamla/>
                 <Onne />
                 <Boutique />
                 <Arrivage />
