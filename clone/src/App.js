@@ -9,6 +9,7 @@ import Arrivage from "./Arrivage";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import MentionLegales from "./MentionLegales";
+import ConditionDeVente from "./ConditionDeVente";
 // function App() {
 //   return (
 //     // <Router>
@@ -53,13 +54,20 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
+        <Home />
+          <Onne/>
+          <Boutique/>
+          <Arrivage/>
+          <Contact/>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/onne" element={<Onne />} />
+          
+          {/* <Route path="/" element={<Home />} />
+          <Route path="/" element={<Onne />} />
           <Route path="/boutique" element={<Boutique />} />
           <Route path="/arrivage" element={<Arrivage />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} /> */}
           <Route path="/mentionLegales" element={<MentionLegales />} />
+          <Route path="/conditiondevente" element={<ConditionDeVente />}/>
         </Routes>
         <Footer />
       </div>
